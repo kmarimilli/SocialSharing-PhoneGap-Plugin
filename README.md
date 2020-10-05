@@ -275,6 +275,9 @@ Don't pass in an image on iOS because that can't be sent to someone directly unf
 
 On Android pass in the phone number of the person you want to send a message to.
 
+This Project is forked on master branch of https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/releases/tag/6.0.2
+Then, 'only' androidX changes are removed/reverted to https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/releases/tag/5.6.8, keeping ios changes, uiwebview removal.
+
 #### SMS
 Note that on Android, SMS via Hangouts may not behave correctly
 ```html
